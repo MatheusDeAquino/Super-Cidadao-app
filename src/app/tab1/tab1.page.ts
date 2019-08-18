@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
+  //nome de entrada do usuario a ser mostrado no app.
+  public usuario: string = "Matheus de Aquino";
+  public data: string = "16, Agosto, 2019";
+  public texto: string="Encontrei este gato sozinho na Av. Maestro Paulo e Silva proximo ao shopping ilha plaza. Aparentemente ele não tem feridas.";
+  
   constructor() {}
-
 }

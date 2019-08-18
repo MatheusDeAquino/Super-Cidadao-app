@@ -4,17 +4,15 @@
       <ion-avatar item-start>
         <img src="assets/imagens/face.JPG">
       </ion-avatar>
-      <h2>Matheus de Aquino</h2>
-      <p>16, Agosto, 2019</p>
+      <h2 class="estilo-usuario" >{{ usuario }}</h2> <!-- Aquela função em tab1.page corresponde a este recurso. -->
+      <p class="estilo-data">{{ data }}</p>
     </ion-item>
 
     <img src="assets/imagens/cat.JPG">
 
     <ion-card-content>
       <ion-icon name="pin"> (Botar aqui a localização pelo google maps) </ion-icon>
-      <p>Encontrei este gato sozinho na Av. Maestro Paulo e Silva proximo
-         ao shopping ilha plaza. Aparentemente ele não tem feridas.
-      </p>
+      <p class="estilo-texto"> {{ texto }} </p>
     </ion-card-content>
 
     <ion-row>
